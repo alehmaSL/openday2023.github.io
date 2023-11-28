@@ -1,0 +1,125 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(228, 240, 180);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos específicos para cada página */
+h1 {
+    font-size: 28px;
+    margin: 20px 0;
+}
+
+/* Estilos para enlaces */
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#imagenreferences {
+ 
+    float: right;
+}
+
+.foto{
+    width: 28%;
+    display: flex;
+    height: auto;
+}
+.seccion2{
+    position: absolute;
+    top: 50%;
+    left:30%;
+
+}
+
+.contenedor{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.contenedor img{
+    flex: 1;
+    margin: 10px;
+    width: 20%;
+}
+.titulo{
+    text-align: center;
+    margin-bottom: -1%;
+}
+#tercios {
+    background-color: rgb(228, 240, 180);
+    display: flex;
+    justify-content: space-around;
+}
+.tarjetaMediana {
+    width: 30%;
+    background-color: rgb(73, 106, 179);
+    border-radius: 5px;
+    text-align: center;
+    border: solid; 
+    margin: 1%;
+    padding: 1%;
+}
+.tarjetaMediana1 {
+    width: 30%;
+    background-color: rgb(73, 106, 179);
+    border-radius: 5px;
+    text-align: center;
+    border: solid; 
+    margin: 1%;
+    padding: 1%;
+}
+
+.grohl{
+width: 10cm;
+}
+
+.grohl1{
+    width: 10cm;
+    }

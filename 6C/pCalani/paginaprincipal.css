@@ -1,0 +1,126 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+a:hover {
+    color: rgb(223, 34, 163);
+}
+
+h1{
+    text-align: center;
+}
+
+#imagencomida{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#p2pag{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+#img2pag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+#cont2pag {
+    display: flex;
+    justify-content: space-around;
+}
+
+#fondoColor {
+    background-color: rgb(207, 149, 204);
+    padding: 2% 0;
+}
+
+.imgCard{
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.img2Card{
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+#Causes {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.centrar {
+    text-align: center;
+}
+
+body 
+{
+    background-color: rgb(160, 120, 197);
+    margin: auto;
+    padding: 1%;
+}
+
+h1 
+{
+    background-color: rgb(177, 131, 196);
+    color: rgb(110, 0, 150);
+    text-align: center;
+    padding: 1%;
+    margin: auto;
+}
+
+p  
+{
+    text-align: justify;
+    margin: auto;
+    background-color: rgb(234, 186, 252);
+}
+
+.foto
+{
+    margin: auto;
+    padding: 1%;
+    align-items: center;
+    float: right;
+}
+
+#cuatro, #tres, #dos{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+}
+
+
+.carduno{
+    border-radius: 5%;
+    border: solid 1px;
+    background-color: rgb(160, 164, 213);
+    text-align: left;
+    width: 40%;
+    padding: 1%;
+    margin: 1%;
+    box-shadow: 10px 10px 10px;
+    align-items: space-around;
+}
+
+.carddos{
+    border-radius: 5%;
+    border: solid 1px;
+    background-color: rgb(192, 174, 230);
+    text-align: left;
+    width: 40%;
+    padding: 1%;
+    margin: 1%;
+    box-shadow: 10px 10px 10px;
+    align-items: space-around;
+}
+

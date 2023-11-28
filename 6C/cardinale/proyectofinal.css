@@ -1,0 +1,48 @@
+/* estilos.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   
+}
+
+header {
+    background-color: #fffb00;
+    color: #000000;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+footer {
+    background-color: #fab906;
+    color: #000000;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#home img {
+    width: 500px;
+}

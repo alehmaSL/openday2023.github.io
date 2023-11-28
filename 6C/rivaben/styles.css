@@ -1,0 +1,114 @@
+/* styles.css */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f6e1be;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fffbde;
+    color: #3a1313;
+    text-align: center;
+    padding: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(232, 209, 61, 0.449);
+}
+
+.navItem{
+    border: solid 1px black;
+    width: 25%;
+    text-align: center;
+    padding: 1%;
+  }
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    padding: 20px;
+}
+#contenedor{
+    width: 90%;
+    margin: auto;
+    background-color: maroon;
+}
+
+#cuatro,#tres,#dos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.tarjeta,.tarjetaTres,.tarjetaDos{
+    border: solid 1px grey;
+    background-color: rgb(101, 134, 106);
+    text-align: left;
+    border-radius: 50px;
+    box-shadow: 15px 15px 15px hsl(0, 16%, 96%);
+    width: 22%;
+    margin: 1%;
+    padding: 1%;
+}
+
+.tarjetaTres{
+    width: 30%;
+}
+
+.tarjetaDos{
+    width: 45%;
+}
+
+.imgTarjeta{
+    max-width: 100%;
+    border-radius: 50px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+h1{text-align: center;
+    color: rgb(135, 91, 5);
+    font-family: courier;
+    font-size: 4em;}
+    
+  
+    .section1 {background-color: rgb(101, 134, 106);
+        margin:auto;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 2px 4px 2px;
+        display: flex;
+        align-items: center;}
+    .section2 {background-color: rgb(101, 134, 106);
+        margin:auto;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 2px 4px 2px;
+        display: flex;
+        align-items: center;}
+    .section3 {background-color: rgb(101, 134, 106);
+            margin:auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 2px 4px 2px;
+            display: flex;
+            align-items: center;}   
+ 
+
+    p {text-align: center;}
+    
+   

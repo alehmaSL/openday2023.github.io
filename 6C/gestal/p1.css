@@ -1,0 +1,55 @@
+body {
+    width: 100%;
+    margin: auto;
+    padding: 4;
+    background-color: lavender;
+}
+
+h4{
+    margin: 1% 3%;
+}
+
+#contenedor{
+    width: 90%;
+    margin: auto;
+    display: flex;  
+    background-color: rgb(253, 225, 244); 
+    border-radius: 20px;
+    box-shadow: 15px 15px 15px;
+    padding: 1%
+}
+
+.tarjeta{
+    width: 80%;
+    margin: auto;
+    padding: 1%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    font-size: large;
+
+}
+
+.workshop{
+    height: 300px;
+    padding: 1%;
+    display: flex;
+    margin: 15px;
+    align-items: center;
+}
+
+.contcards{
+    padding: 5%;
+    display: flex;
+    justify-content:space-evenly
+}
+
+h4{
+    padding: 1%;
+}
+
+.card body p{
+    text-align: center;
+}

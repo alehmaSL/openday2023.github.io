@@ -1,0 +1,43 @@
+.texto{
+    display: flex;
+    margin: 50px;
+    background-color: rgb(164, 215, 244);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 20px 30px grey;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+
+.img{
+    display: flex;
+    width: 425px;
+    align-items: center;
+    margin: 15px;
+}
+
+.img2{
+   height: 350px;
+   display: flex;
+   align-items: center;
+   margin: 15px;
+}
+
+h4{
+    text-align: center;
+    margin: 0% 25%;
+}
+
+body{
+    background-color: lavender;
+}
+
+.contendor{
+    background-color: white;
+    margin: 0px 100px ;
+}
+
+#text2{
+    text-align: end;
+}

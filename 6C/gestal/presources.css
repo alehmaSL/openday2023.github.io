@@ -1,0 +1,71 @@
+body {
+    width: 100%;
+    margin: auto;
+    background-color: lavender;
+}
+
+h4{
+    margin: 1% 5%;
+}
+
+p{
+    margin: 1% 5%;
+}
+
+h3{
+    margin: 1% 5%;
+}
+
+.texto{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#contenedor{
+    width: 70%;
+    margin: auto;
+    display: flex;  
+    background-color: rgb(253, 255, 206); 
+    border-radius: 20px;
+    box-shadow: 15px 15px 15px;
+    padding: 1%
+}
+
+.tarjeta{
+    width: 80%;
+    margin: auto;
+    padding: 1%;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: space-around;
+    font-size: large;
+    }
+
+#contenedor2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+#info{
+    text-align: center;
+    font-size: large;
+}
+
+#intro{
+    font-size: larger;
+}
+
+hr{
+    margin: 5%;
+}
+.tarjetaa{
+    width: 30%;
+}
+.tarjetaa img {
+    width: 300px;
+}
