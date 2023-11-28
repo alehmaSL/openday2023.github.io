@@ -1,0 +1,115 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+#contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-color: rgb(251, 232, 235);
+}
+
+#linkHeader {
+    text-decoration: none;
+    color: black;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+}
+
+#eatingwhat{
+    display: flex;
+    justify-content: end;
+
+}
+
+#imagencomida{
+    display: flex;
+    justify-content: center;
+}
+
+#fotos{
+    display: flex;
+    justify-content: center;
+}
+
+#tercios {
+    background-color: rgb(250, 230, 245);
+    display: flex;
+    justify-content: space-around;
+}
+
+.tarjetamedia {
+    width: 30%;
+    background-color: rgb(236, 210, 201);
+    border-radius: Spx;
+    text-align: center;
+    border: rgb(220, 25, 25);
+    margin: 1%;
+    padding: 1%;
+}
+.tierra {
+    max-width: 100%;
+}
+
+#fotos1{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(208, 191, 208);
+}
+
+#texto{
+    display: flex;
+    justify-content: center;
+    margin-left: 2%;
+    font-size: large;
+    text-align: justify;
+}
+
+#texto1{
+    display: flex;
+    justify-content: center;
+}
+
+#texto2{
+    display: flex;
+    justify-content: center;
+}
+
+#texto3{
+    display: flex;
+    justify-content: center;
+}
+
+#texto4{
+    display: flex;
+    justify-content: center;
+}
+
+
+#foto6{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+#textooo{
+    display: flex;
+    justify-content: center;
+}

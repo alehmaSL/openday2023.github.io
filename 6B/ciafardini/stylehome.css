@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+#contenedor {
+    width: 90%;
+    margin: auto;
+    background-color:rgb(255, 255, 255);
+}
+
+#cuartos {
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+}
+
+#tercios {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+}
+
+#medios {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+}
+
+.tarjetaChica {
+    width: 20%;
+    background-color: rgb(247, 207, 249);
+    border-radius: 5px; 
+    text-align: center;
+    border: solid;
+    margin: 1%;
+    padding: 1%;
+}
+
+.tarjetaMediana {
+    width: 30%;
+    background-color: rgb(247, 207, 249);
+    border-radius: 5px;
+    text-align: center;
+    border: solid; 
+    margin: 1%;
+    padding: 1%;
+}
+
+.grohl {
+    max-width: 100%;
+}

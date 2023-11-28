@@ -1,0 +1,43 @@
+#principal {
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(233, 240, 26);
+    padding: 1%;
+}
+
+#contenedor {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tarjetaChica {
+    width: 20%;
+    background-color: rgb(229, 126, 243);
+    border-radius: 5px; 
+    text-align: center;
+    border: solid;
+    margin: 1%;
+    padding: 1%;
+}
+
+.tarjetaChica img, .tarjetaMedia img {
+    max-width: 100%;
+}
+
+
+.tarjetaMedia {
+    width: 30%;
+    background-color: rgb(60, 176, 82);
+    border-radius: 5px; 
+    text-align: center;
+    border: solid;
+    margin: 1%;
+    padding: 1%;
+}

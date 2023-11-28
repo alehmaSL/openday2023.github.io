@@ -1,0 +1,134 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #fe7ef9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fd80e6;
+    color: #f81cde;
+    text-align: center;
+    padding: 20px;
+}
+
+
+    
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(249, 74, 232, 0.449);
+}
+
+.navItem{
+    border: solid 1px black;
+    width: 25%;
+    text-align: center;
+    padding: 1%;
+  }
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    padding: 20px;
+}
+#contenedor{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(252, 121, 206);
+}
+
+#cuatro,#tres,#dos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.tarjeta,.tarjetaTres,.tarjetaDos{
+    border: solid 1px rgb(249, 117, 212);
+    background-color: rgb(249, 117, 212);
+    text-align: left;
+    border-radius: 50px;
+    box-shadow: 15px 15px 15px hsl(312, 97%, 28%);
+    width: 22%;
+    margin: 1%;
+    padding: 1%;
+}
+
+.tarjetaTres{
+    width: 30%;
+}
+
+.tarjetaDos{
+    width: 45%;
+}
+
+.imgTarjeta{
+    max-width: 100%;
+    border-radius: 50px;
+    align-items: center;
+}
+
+.imgfoto{
+    max-width: 100%;
+    border-radius: 50px;
+
+}
+
+.imgIntro{
+    max-width: 100%;
+    border-radius: 50px;
+align-items: center;
+}
+
+
+footer {
+    background-color: #ff67de;
+    color: #893b7d;
+    text-align: center;
+    padding: 10px;
+}
+
+h1{text-align: center;
+    color: rgb(112, 0, 110);
+    font-family: courier;
+    font-size: 4em;}
+    
+    h4{text-align: left;
+        color: rgb(112, 0, 110);
+        font-family: courier;
+        }
+  
+    .section1 {background-color: rgb(249, 117, 212);
+        margin:auto;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 2px 4px 2px;
+        display: flex;
+        align-items: center;}
+    .section2 {background-color: rgb(255, 152, 228);
+        margin:auto;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 2px 4px 2px;
+        display: flex;
+        align-items: center;}
+    .section3 {background-color: rgb(255, 133, 249);
+            margin:auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 2px 4px 2px;
+            display: flex;
+            align-items: center;}   
+ 
+
+    p {text-align: left;}
